@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra o Número</title>
+    <style>
+        body{
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 590px;
+            background: lightseagreen;
+            text-align: center;
+        }
+        div{
+            margin: 10px 5px ;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1><u>Descubra o Número</u></h1>
+        <div>
+            <label for="">Descubra o Número</label> <br>
+            <input type="text" id="Numero">
+        </div>
+        <div id="btns">
+            <button id="btnJogar">Jogar</button>
+        </div>
+        <div>
+            <p>Erros: <span id="erros">0</span></p>
+            <p>Chances: <span id="tentativa">6</span></p>
+            <p id="dica">É um número entre 1 e 100.</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
